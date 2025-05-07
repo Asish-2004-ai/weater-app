@@ -15,7 +15,7 @@ import {
 } from '@mui/material';
 import Link from 'next/link';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import { useWeather  } from '@/pages/context/WeatherContext';
+import { useWeather  } from '@/context/WeatherContext';
 
 
 export default function CitiesPage() {

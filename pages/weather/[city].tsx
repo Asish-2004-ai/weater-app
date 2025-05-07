@@ -1,7 +1,7 @@
 // pages/weather/[city].tsx
 import { GetServerSideProps } from 'next';
 import { Typography, Container, Card, CardContent, CircularProgress } from '@mui/material';
-import { useWeather } from '@/pages/context/WeatherContext';
+import { useWeather } from '@/context/WeatherContext';
 import { useEffect } from 'react';
 
 interface WeatherProps {

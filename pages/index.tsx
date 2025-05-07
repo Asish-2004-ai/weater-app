@@ -1,5 +1,5 @@
 import { Button, Typography, Box } from '@mui/material';
-import { useWeather } from '../pages/context/WeatherContext';
+// import { useWeather } from '../pages/context/WeatherContext';
 import Link from 'next/link';
 
 export default function Home() {
